@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    tools:context=".ui.activity.MainActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/nav_host_activity_main"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/navigation_activity_main" />
+
+    <me.ibrahimsn.lib.SmoothBottomBar
+        android:id="@+id/bottomBar_activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:activeItem="2"
+        app:backgroundColor="@color/white"
+        app:iconSize="24dp"
+        app:iconTint="@android:color/darker_gray"
+        app:iconTintActive="@color/purple_200"
+        app:indicatorColor="#2DFFFFFF"
+        app:itemFontFamily="@font/vazir"
+        app:itemPadding="10dp"
+        app:menu="@menu/navigation_bottom_menu"
+        app:sideMargins="10dp"
+        app:textColor="@android:color/darker_gray"
+        app:textSize="14sp" />
+
+</LinearLayout>

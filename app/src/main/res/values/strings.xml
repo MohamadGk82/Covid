@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">کویید</string>
+    <string name="news">خبرها</string>
+    <string name="statistics">آمار</string>
+    <string name="home">خانه</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="covid_19">کووید</string>
+    <string name="feeling_sick">آیا احساس بیماری دارید ؟</string>
+    <string name="lorem">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</string>
+    <string name="my_btc_wallet">کیف پول بیتکوین من (my BTC wallet)</string>
+    <string name="my_email">marandiandr.com@gmail.com</string>
+    <string name="email">ایمیل (email)</string>
+    <string name="name">اسم (name)</string>
+    <string name="contact_me">ارتباط با من (Contact Me)</string>
+    <string name="my_name">محمد مهدی کاردان (Mohamad Mahdi Kardan)</string>
+    <string name="my_wallet">bc1qfpuv8xmvcwcv6vmyjzf6uat7ehppxs9r4kldhe</string>
+    <string name="about_vector">TODO</string>
+</resources>

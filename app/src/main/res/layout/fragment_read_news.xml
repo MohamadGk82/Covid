@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context=".ui.fragment.ReadNewsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_toolbar_read_news" />
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/imageview_news_fragment_read_news"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="fitXY"
+            android:src="@color/purple_200"
+            app:riv_corner_radius="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/textview_category_fragment_read_news"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:fontFamily="@font/vazir"
+            android:paddingRight="16dp"
+            android:gravity="center_vertical"
+            android:text="جدیدترین ها"
+            android:textColor="#F44336" />
+
+        <TextView
+            android:id="@+id/textview_title_fragment_read_news"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:fontFamily="@font/vazir"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="امیدواریم در مبارزه با بیماری کرونا سرافراز بیرون بیاییم"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imageview_announcer_fragment_read_news"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="16dp"
+                android:scaleType="centerCrop"
+                android:src="@color/purple_200"
+                app:riv_corner_radius="45dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/textview_announcer_fragment_read_news"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/vazir"
+                    android:gravity="bottom"
+                    android:paddingRight="8dp"
+                    android:text="سخنگوی وزارت بهداشت"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textview_date_fragment_read_news"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/vazir"
+                    android:gravity="top"
+                    android:paddingRight="8dp"
+                    android:text="1399/12/20" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textview_description_fragment_read_news"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/vazir"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="4dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="@string/lorem" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
